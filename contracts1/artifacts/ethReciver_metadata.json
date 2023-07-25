@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/payabale.sol": "ethReciver"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/payabale.sol": {
+			"keccak256": "0x810218285110db9e157fb7d8f5ef6e052520053ae8b709fe9c0bd9294480494e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://81e590d2233ad43e510c0f8bb8d1f256e29e4ad6669e9d3b1f467b0e8e534a09",
+				"dweb:/ipfs/QmRYRTbQUssmK6Raa4YwXDdrbMcmNBAzawHBTww5rCAq4Z"
+			]
+		}
+	},
+	"version": 1
+}
